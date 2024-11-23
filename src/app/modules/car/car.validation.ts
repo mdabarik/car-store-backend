@@ -15,7 +15,7 @@ export const carValidationSchema = Joi.object({
   category: Joi.string().required().message("Category is required."),
   description: Joi.string().required().message("Description is required."),
   quantity: Joi.number().min(0).required(),
-  inStock: Joi.boolean().required().message("Must be a boolean value"),
+  inStock: Joi.boolean().required().message("Must be a boolean value."),
 });
 
 export const OrderSchema = Joi.object({

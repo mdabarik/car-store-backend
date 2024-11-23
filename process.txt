@@ -1,0 +1,24 @@
+
+-- create folder
+-- npm init -y (initialize package)
+-- tsc --init (initialize typescript package)
+-- folder structure
+    -->|| dist
+    -->|| src
+        -->|| app
+            -->|| config
+            -->|| modules
+                -->|| car
+                    --> car.interface.ts
+                    --> car.model.ts
+                    --> car.route.ts
+                    --> car.service.ts
+                    --> car.validation.ts
+        --> app.ts
+        --> server.ts
+
+-- install typescript
+-- ts-node-dev
+-- setup eslint and prettier
+-- setupt .env
+-- create model car and order
